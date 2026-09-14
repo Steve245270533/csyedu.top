@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { Github, Mail } from 'lucide-vue-next'
+import bundle from 'tegaki/fonts/caveat';
+
 defineProps<{ signature?: boolean }>()
 </script>
 
@@ -9,7 +11,12 @@ defineProps<{ signature?: boolean }>()
     :style="{ '--step': 5 }"
   >
     <div v-if="signature" class="mb-6 flex items-center justify-between">
-      <span class="signature text-ink" aria-label="SteveChen">SteveChen</span>
+      <TegakiRenderer
+        :font="bundle"
+        text="SteveChen"
+        :time="{ mode: 'uncontrolled', speed: 1 }"
+        :style="{ fontSize: '48px' }"
+      />
       <div class="flex items-center gap-4">
         <a
           href="https://github.com/Steve245270533"
@@ -56,13 +63,6 @@ defineProps<{ signature?: boolean }>()
 </template>
 
 <style scoped>
-.signature {
-  font-family: 'Snell Roundhand', 'Segoe Script', cursive;
-  font-size: 27px;
-  font-style: italic;
-  letter-spacing: -1.5px;
-  transform: rotate(-6deg);
-}
 .social {
   display: inline-flex;
   color: var(--color-muted);

@@ -1,6 +1,7 @@
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
+  modules: ['tegaki/nuxt'],
   compatibilityDate: '2026-09-14',
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
