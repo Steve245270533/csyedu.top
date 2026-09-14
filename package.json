@@ -1,0 +1,35 @@
+{
+  "name": "stevechen-personal-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --host 0.0.0.0",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "deploy": "pnpm generate && wrangler deploy",
+    "postgenerate": "node scripts/finalize-static.mjs",
+    "lint": "oxlint --deny-warnings .",
+    "lint:fix": "oxlint --fix .",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "check": "pnpm lint && pnpm format:check && pnpm typecheck"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "lucide-vue-next": "^0.577.0",
+    "nuxt": "^4.4.2",
+    "tailwindcss": "^4.2.1",
+    "vue": "^3.5.30",
+    "vue-router": "^5.0.3"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.67.0",
+    "oxlint": "^1.82.0",
+    "sharp": "^0.34.5",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.2.5",
+    "wrangler": "^4.0.0"
+  }
+}

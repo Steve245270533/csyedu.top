@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "csyedu-top",
+  "account_id": "01b34d4d7061eaf48e5a4ceb4dcb53ce",
+  "compatibility_date": "2026-09-14",
+  "assets": {
+    "directory": "./.output/public",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page",
+  },
+  "routes": [
+    {
+      "pattern": "csyedu.top",
+      "custom_domain": true,
+    },
+  ]
+}

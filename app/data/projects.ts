@@ -1,0 +1,66 @@
+// Curated from public GitHub repositories, verified 2026-09-14.
+export const projects = [
+  {
+    name: 'gallery',
+    url: 'https://github.com/Steve245270533/gallery',
+    demo: 'https://steve245270533.github.io/gallery/',
+    category: 'Three.js',
+    description: '可以漫游的数字展馆，把展览搬进浏览器。',
+  },
+  {
+    name: 'character-simulator',
+    url: 'https://github.com/Steve245270533/character-simulator',
+    demo: 'https://steve245270533.github.io/character-simulator/',
+    category: 'Three.js',
+    description: '从数字展馆延伸的第三人称角色与场景探索。',
+  },
+  {
+    name: 'three-stylized',
+    url: 'https://github.com/Steve245270533/three-stylized',
+    demo: 'https://steve245270533.github.io/three-stylized/',
+    category: 'Three.js',
+    description: '风格化草地，实例化渲染与风的实验。',
+  },
+  {
+    name: 'typed-crt',
+    url: 'https://github.com/Steve245270533/typed-crt',
+    demo: 'https://crt.twimark.cc.cd/edit',
+    category: 'TypeScript',
+    description: '可定制的复古 CRT 动态文字渲染器。',
+  },
+  {
+    name: 'job-posting-website',
+    url: 'https://github.com/Steve245270533/job-posting-website',
+    demo: null,
+    category: 'Nuxt',
+    description: 'Nuxt、Prisma 与 Better Auth 构建的招聘平台原型。',
+  },
+  {
+    name: 'rs-capture',
+    url: 'https://github.com/Steve245270533/rs-capture',
+    demo: null,
+    category: 'Rust / Node.js',
+    description: '由 Rust 驱动的 Node.js 跨平台屏幕捕获库。',
+  },
+  {
+    name: 'markdown-editor-preview',
+    url: 'https://github.com/Steve245270533/markdown-editor-preview',
+    demo: 'https://steve245270533.github.io/markdown-editor-preview/',
+    category: 'Vue',
+    description: 'Markdown 编辑与预览，支持双向滚动同步。',
+  },
+  {
+    name: 'react-three-egg',
+    url: 'https://github.com/Steve245270533/react-three-egg',
+    demo: 'https://steve245270533.github.io/react-three-egg/',
+    category: 'React / R3F',
+    description: '用 React Three Fiber 构建的第三人称闯关游戏。',
+  },
+  {
+    name: 'editorial-defender',
+    url: 'https://github.com/Steve245270533/editorial-defender',
+    demo: 'https://steve245270533.github.io/editorial-defender/',
+    category: 'Web game',
+    description: '在动态重排的文字墙里，驾驶坦克生存。',
+  },
+] as const
