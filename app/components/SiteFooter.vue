@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Github, Mail } from 'lucide-vue-next'
-import bundle from 'tegaki/fonts/caveat';
+import bundle from 'tegaki/fonts/caveat'
 
 defineProps<{ signature?: boolean }>()
 </script>

@@ -32,7 +32,7 @@ useHead({
 })
 </script>
 <template>
-  <main id="main-content" class="flex min-h-svh items-center justify-center px-6 py-16 sm:py-20">
+  <main id="main-content" class="flex min-h-svh items-center justify-center px-6 py-16">
     <div class="w-full max-w-[540px]">
       <HomeIntroduction />
       <SiteFooter signature />

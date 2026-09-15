@@ -19,8 +19,8 @@ import { Box, Terminal, Github, Sprout } from 'lucide-vue-next'
       </p>
     </header>
     <p class="reveal" :style="{ '--step': 1 }">
-      目前在国企做软件开发。日常与 Vue、TypeScript 和 Cesium、three.js
-      打交道，也实践后端工程化与实时通信。
+      目前在国企做软件开发。日常与 Vue、TypeScript、Cesium、three.js
+      打交道，也实践前端工程化与Node全栈。
     </p>
     <p class="reveal" :style="{ '--step': 2 }">
       我做过
@@ -31,7 +31,24 @@ import { Box, Terminal, Github, Sprout } from 'lucide-vue-next'
         rel="noopener noreferrer"
         ><Box :size="13" />gallery</a
       >
-      数字展馆和一些 Three.js 实验，相关开源项目在 GitHub 与 Gitee 累计收获 1.3k+ stars；也向
+      数字展馆和一些 Three.js 实验，相关开源项目在
+      <a
+        href="https://github.com/Steve245270533"
+        class="text-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        >GitHub
+      </a>
+      与
+      <a
+        href="https://gitee.com/steve007"
+        class="text-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Gitee
+      </a>
+      累计收获 1.3k+ stars；也向
       <a
         href="https://github.com/Tresjs/tres/pull/513"
         class="text-link"
@@ -41,7 +58,8 @@ import { Box, Terminal, Github, Sprout } from 'lucide-vue-next'
       >。 关注 Nuxt + Better Auth + Prisma 相关技术栈，以及 AI Agent、LLM 与 Cloudflare 边缘计算。
     </p>
     <p class="reveal" :style="{ '--step': 3 }">
-      代码之外，我也写中文都市短篇小说，反复琢磨人物、叙事与生活的细节。在公众号
+      代码之外，我也在公众号
+      <!-- 代码之外，我也写中文都市短篇小说，反复琢磨人物、叙事与生活的细节。 -->
       <QrCodeDialog
         title="twimark"
         label="twimark"
